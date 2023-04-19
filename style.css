@@ -1,0 +1,145 @@
+@font-face{
+    font-family:'Montserrat';
+    src:url(FONTY/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    src: url(FONTY/SourceSansPro-Bold.ttf);
+}
+header {
+    padding: 50px;
+    background-color: white;
+}
+h1{
+    font-family:Montserrat;
+    text-indent: 20px;
+    font-size:53px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body{
+    font-family: Source Sans Pro;
+    background-color:white;
+    font-size: 18px;
+}
+nav,footer{
+    text-align: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+    font-family:Source Sans Pro;
+    font-size:28px;
+}
+nav{
+    background:linear-gradient(to top, white, peru);
+    border-radius: 10px;
+    height:60px;
+    margin-left: 14%;
+    margin-right:14%;
+    word-spacing: 30px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:rgba(2, 3, 4, 0.5);
+}
+a:active{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-family:Montserrat;
+    font-size: 30px;
+    margin:auto;
+    text-indent: 16%;
+}
+p{
+    text-align: justify;
+    margin-left: 14%;
+    margin-right:14%;
+
+}
+
+ol{
+    list-style-type: circle;
+    margin-left:14%;
+    margin-right:14%;
+}
+#tabela{
+    margin-left:14%;
+    margin-right:14%;
+    border: 4px  black;   
+    border-collapse:collapse;
+    border-color: black;
+    width:73%;
+    height:7%;
+    
+}    
+#kolumna{
+    background:linear-gradient(to top, white, peru);
+}
+.okładka{
+    width:250px;
+    height:250px;
+}
+#nominacje{
+    margin-left:14%;
+    margin-right: 14%;
+    list-style-type:disc;
+}
+li{
+    list-style-type: disc;
+}
+#nominacje2{
+    margin-left: 14%;
+
+}
+#linia{
+    background-color: peru;
+    color: peru;
+    border-bottom: 1px solid peru;
+    margin-left:14%;
+    margin-right:14%;
+    padding-top: 1px;
+   
+}
+nav a{
+    text-decoration: none;
+    transition: background-color 0.5s;
+    object-fit: cover;
+    position: relative;
+    transition: transform .5s ease;
+    border-radius:10px;
+}
+nav a:hover {
+    background-color: peru;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    width:19%;
+    height:24%;
+    border-radius: 50px;
+    border:dashed;
+    position: relative;
+    left:41%;
+}
+td{
+    text-align: center;
+}
+iframe{
+    margin-left: 14%;
+}
